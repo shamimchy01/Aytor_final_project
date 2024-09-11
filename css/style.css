@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+:root {
+    --font-family: "Josefin Sans", sans-serif;
+    --second-family: "Roboto", sans-serif;
+    --text-color: #11161e;
+    --3d-primary-color: #151a32;
+    --comon-colot: #fff;
+    --1st-primary-color: #ff6f61;
+    --paragraph-color: #444;
+    --2nd-primary-color: #ff5645;
+    --background-color: #f1f1f1;
+    --bg: #f1f3f4;
+    --black: #000;
+    --a6aab7: #a6aab7;
+}
+
+
+/* Common css starts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul,
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p,
+span,
+ol {
+    margin: 0;
+    padding: 0;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+
+/* common css ends */
+
+
+/* Nav var starts */
+
+.navbar .logo {
+    margin-right: 20px;
+}
+
+.navbar #navbarNav {
+    margin-left: -100px;
+}
+
+#navbarNav ul li {
+    padding-right: 10px;
+}
+#navbarNav ul li a{
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 162%;
+}
+#navbarNav .dropdown {
+    margin-top: 2px;
+}
+
+#navbarNav .dropdown:hover button {
+    color: var(--1st-primary-color)
+}
+
+#navbarNav ul li:hover a {
+    color: var(--1st-primary-color)
+}
+.socialLink li{
+   padding: 0px 10px;
+}
+.socialLink span{
+    width: 16px;
+    height: 16px;
+    line-height: 19px;
+    background-color: var(--1st-primary-color);
+    border-radius: 50%;
+    display: block;
+    color: white;
+    text-align:center;
+    position: absolute;
+    top:-1px;
+    right: -5px;
+}
+.counter{
+    width: 16px;
+    height: 16px;
+    line-height: 19px;
+    background-color: var(--1st-primary-color);
+    border-radius: 50%;
+    display: block;
+    color: white;
+    text-align:center;
+    position: absolute;
+    top:-1px;
+    right: -5px;
+}
+/* Nav var ends */
+/* small nav */
+.smallNav{
+    padding-top: 10px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-bottom: 10px;
+}
+.smallNav li{
+    padding: 8px;
+}
+.smallNav .menubar a{
+    color:black;
+    font-size: 20px;
+    padding-right: 20px;
+}
+.smallNav .logo img{
+    width: 120px;
+}
+.smallNav .logo a{
+padding-left: 30px;
+}
+/* small nav ends */
+/* bottom nav bar */
+.NavBarBottom{
+    position:fixed;
+    bottom:0;
+    left:0;
+    width: 100%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
+.bottomIcons ul li a{
+
+    padding: 20px;
+    font-size: 20px;
+    color:black;
+}
+.bottomSearch{
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: var(--1st-primary-color);
+     line-height: 75px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     transform: translateY(-20px);
+     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+
+}
+.bottomSearch i{
+    font-size: 30px;
+    color: white;
+    line-height: 30px;
+    
+
+}
+
+#offcanvasExample{
+    max-width: 85%;
+}
+#offcanvasExample .dropdown button{
+    background-color: var(--1st-primary-color);
+}
+
+#offcanvasExample .dropdown ul li:hover a{
+    color:var(--1st-primary-color)
+}
+/* bottom nav bar ends */
